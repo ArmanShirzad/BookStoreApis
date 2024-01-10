@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Infrastructure\Communication\BookStore.Infrastructure.Communication\BookStore.Infrastructure.Communication.csproj" />
     <ProjectReference Include="..\..\Core\BookStore.Core.Application\BookStore.Core.Application.csproj" />
     <ProjectReference Include="..\..\Infrastructure\BookStore.Infrastructure.Persistence\BookStore.Infrastructure.Persistence.csproj" />
   </ItemGroup>
