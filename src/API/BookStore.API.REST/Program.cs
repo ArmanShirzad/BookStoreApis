@@ -20,6 +20,7 @@ namespace BookStore.API.REST
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
+                    webBuilder.UseUrls("http://localhost:5001"); // Change the port number here
                     webBuilder.UseStartup<Startup>();
                 });
     }
